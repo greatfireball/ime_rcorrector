@@ -1,7 +1,11 @@
 ARG baseversion=v2.2.10
+ARG VERSION=master
+ARG VCS_REF
+ARG BUILD_DATE
+
 FROM greatfireball/ime_jellyfish:${baseversion}
 
-ARG VERSION=master
+ARG VERSION
 ARG VCS_REF
 ARG BUILD_DATE
 
