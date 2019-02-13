@@ -16,7 +16,7 @@ LABEL maintainer="frank.foerster@ime.fraunhofer.de" \
       version=${VERSION} \
       org.label-schema.vcs-ref=${VCS_REF} \
       org.label-schema.build-date=${BUILD_DATE} \
-      org.label-schema.vcs-url="https://github.com/greatfireball/ime_Rcorrector.git"
+      org.label-schema.vcs-url="https://github.com/greatfireball/ime_rcorrector.git"
 
 WORKDIR /opt
 
