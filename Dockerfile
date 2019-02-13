@@ -19,6 +19,7 @@ WORKDIR /opt
 RUN apt update && \
     apt install --yes \
 	git \
+	zlib1g-dev \
 	build-essential && \
     git clone https://github.com/mourisl/rcorrector.git && \
     cd rcorrector && git checkout v1.0.3.1 && rm -rf .git && \
