@@ -1,5 +1,5 @@
 ARG baseversion=v2.2.10
-FROM greatfireball/ime_jellyfish:${osversion}
+FROM greatfireball/ime_jellyfish:${baseversion}
 
 ARG VERSION=master
 ARG VCS_REF
