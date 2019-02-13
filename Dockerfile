@@ -23,7 +23,7 @@ RUN apt update && \
 	build-essential && \
     git clone https://github.com/mourisl/rcorrector.git && \
     cd rcorrector && git checkout v1.0.3.1 && rm -rf .git && \
-    make && \
+    make && chmod +x run_rcorrector.pl && \
     apt remove --yes \
 	git \
 	build-essential && \
